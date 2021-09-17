@@ -11,7 +11,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.docker.demo.configuration.JpaConfiguration;
 
-
+/**
+ * TODO: add a comment  
+ */ 
 @Import(JpaConfiguration.class)
 @SpringBootApplication(scanBasePackages={"com.docker.demo"})
 @EntityScan("com.docker.demo.model")
